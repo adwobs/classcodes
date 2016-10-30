@@ -1,7 +1,7 @@
 (function() {
 
 		//barcode scanner 
-	document.getElementById("barcode").onclick= function(){
+	/*document.getElementById("barcode").onclick= function(){
 		cordova.plugins.barcodeScanner.scan(result,error);
 	}
 	cordova.plugins.barcodeScanner.scan(
@@ -13,7 +13,7 @@
       },
       function (error) {
           alert("Scanning failed: " + error);
-      });
+      }); */
 
 	document.addEventListener('deviceready', onDeviceReady.bind(this), false);
 	var pictureSource;
